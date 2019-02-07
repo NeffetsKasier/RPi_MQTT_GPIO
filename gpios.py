@@ -9,10 +9,10 @@ import time, signal, sys, os
 #~~~~~~~~~~~ MQTT Client initialisieren [START] ~~~~~~~~~~~~~
 # Auf Wireless-Verbindung warten bevor MQTT gestartet wird
 time.sleep(1) 
-mqtt_name="Modellhaus"
-mqtt_user = "openadmin"
-mqtt_pw = "adminopen"
-mqtt_ip = "192.168.0.2"
+mqtt_name="client"
+mqtt_user = "username"
+mqtt_pw = "password"
+mqtt_ip = "ipadress"
 sleep_between_publish = 5
 
 # Login fuer Broker
